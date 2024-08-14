@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud Project</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="Product">Product</label>
+                        <input type="text" name="Product" id="Product">
+                        <select id="productSelect">
+                            <option value="">Select Product</option>
+                            <option value="Coke">Coke</option>
+                            <option value="Ice Cream">Ice Cream</option>
+                            <option value="Water Bottle">Water Bottle</option>
+                            <option value="Choclate">Choclate</option>
+                            <option value="Chips">Chips</option>
+                            <option value="Cake">Cake</option>
+                            <option value="Noodles">Noodles</option>
+                            <option value="Biscuit">Biscuit</option>
+                            <option value="Buttermilk">Buttermilk</option> 
+                            <option value="Juice">Juice</option>  
+                          </select>
+                    </div>
+                    <div>
+                        <label for="Quantity">Quantity</label>
+                        <input type="text" name="Quantity" id="Quantity">
+                    </div>
+                    <div>
+                        <label for="Price">Price</label>
+                        <input type="text" name="Price" id="Price">                   
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="submit">
+                        <input type="reset" value="reset">
+                    </div>
+                </form>
+                <td>
+                    <table class="list" id="BillList">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <div class="total-price">
+                        <h2>TotalBill:</h2>
+                        <span id="totalPrice"></span>
+                    </div>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>

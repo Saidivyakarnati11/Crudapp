@@ -1,0 +1,110 @@
+body{
+    background-image:url("image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #35be20;
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form_action--button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_action--button input[type="submit"],
+.form_action--button input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form_action--button input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form_action--button input[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+
+.form_action--button input[type="submit"]:hover,
+.form_action--button input[type="reset"]:hover {
+    opacity: 0.8;
+}
+
+.container {
+    flex-grow: 1; /* Ensures the container takes up all available space */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-box {
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .storage {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+}
